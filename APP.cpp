@@ -15,6 +15,12 @@ Definir alfabeto, dentre outros elementos da sêxtupla como entrada.
 BONUS: Fazer representação gráfica"
 */
 
+/*
+git add arquivo
+git commit -m "Mensagem"
+git push
+*/
+
 #include<iostream> //Biblioteca iostream.
 #include<string> //Biblioteca string.
 
@@ -23,11 +29,11 @@ struct no { //Struct no: Função.
 	no *link;
 };
 
-no *inicializaPilha(no *L) {
+no *inicializaPilha(no *L) { //função de incializar a pilha.
 	return NULL;
 }
 
-void imprimePilha(no *L) {
+void imprimePilha(no *L) {//função de imprimir os elementos da pilha.
 	no *P;
 	P = L;	
 	
@@ -38,7 +44,7 @@ void imprimePilha(no *L) {
 	}	
 }
 
-no *PUSH(no *L, int x) {
+no *PUSH(no *L, int x) {//função de colocar um elemento a pilha.
 	no *N;
 
 	N = new no;
@@ -50,7 +56,7 @@ no *PUSH(no *L, int x) {
 	return (L);
 }
 
-no *POP(no *L, int *n) {
+no *POP(no *L, int *n) {//função de retirar um elemento da pilha.
 	no *AUX;
 
 	if (L != NULL) {
@@ -65,7 +71,7 @@ no *POP(no *L, int *n) {
 	return (L);
 }
 
-int main(){
+int main(){ //Main();
 	cout<<"\t\tOla, bem vindo ao simulador de Automato Pilha!!!\n"<<; //Mensagem de apresentação.
     cout<<"\t\tO alfabeto de entrada sera binario (0/1).\n"<<; //Declaração do alfabeto.
     cout<<"\t\tEntre o a cadeia dejada:\n"<<; //Mensagem de pedido de entrada de variavel.
