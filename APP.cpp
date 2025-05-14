@@ -1,6 +1,7 @@
-#include<iostream>
-#include<string>
-struct no {
+#include<iostream> //Biblioteca iostream.
+#include<string> //Biblioteca string.
+
+struct no { //Struct no: Função.
 	int info;
 	no *link;
 };
@@ -48,8 +49,8 @@ no *POP(no *L, int *n) {
 }
 
 int main(){
-	cout<<"\t\tOla, bem vindo ao simulador de Automato Pilha!!!\n"<<;
-    cout<<"\t\tO alfabeto de entrada sera binario.\n"<<;
-    cout<<"\t\tEntre o a cadeia dejada:\n"<<;
-    cin<<""<<;
+	cout<<"\t\tOla, bem vindo ao simulador de Automato Pilha!!!\n"<<; //Mensagem de apresentação.
+    cout<<"\t\tO alfabeto de entrada sera binario (0/1).\n"<<; //Declaração do alfabeto.
+    cout<<"\t\tEntre o a cadeia dejada:\n"<<; //Mensagem de pedido de entrada de variavel.
+    cin<<""<<; //Leitura de variavel.
 }
