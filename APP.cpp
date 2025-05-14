@@ -72,6 +72,7 @@ no *POP(no *L, int *n) {//função de retirar um elemento da pilha.
 }
 
 int main(){ //Main();
+    struct info *link;//variaveis da struct.
 	cout<<"\t\tOla, bem vindo ao simulador de Automato Pilha!!!\n"<<; //Mensagem de apresentação.
     cout<<"\t\tO alfabeto de entrada sera binario (0/1).\n"<<; //Declaração do alfabeto.
     cout<<"\t\tEntre o a cadeia dejada:\n"<<; //Mensagem de pedido de entrada de variavel.
