@@ -1,3 +1,20 @@
+/*
+Descrição do Trabalho de Automato e Pilha:
+
+"Desenvolver um AAP (Autômato a Pilha), ele deve simular o funcionamento teórico de um autômato.
+
+Requisitos mínimos: 
+
+Uma cadeia de entrada (definida pelo alfabeto desejado) e dizer se reconhece ou não
+Definir em código toda a sêxtupla (mesmo que não utilize todas as variáveis)
+Ideias de extras: 
+
+Fazer a definição dos estados dinâmicos
+Definir a linguagem
+Definir alfabeto, dentre outros elementos da sêxtupla como entrada.
+BONUS: Fazer representação gráfica"
+*/
+
 #include<iostream> //Biblioteca iostream.
 #include<string> //Biblioteca string.
 
