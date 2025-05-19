@@ -146,7 +146,7 @@ int main(){
             }
         }
 
-        printf("\t\tAutomato vazio Pilha aceita, tenha um bom dia!!!\n");
+        printf("\t\tAutomato vazio, Pilha aceita, tenha um bom dia!!!\n");
     }
 
     return 0;
